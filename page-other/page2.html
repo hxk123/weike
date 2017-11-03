@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>走进威克</title>
+<script src="jquery.js"></script>
+<style>
+*{ font-family:"微软雅黑";}
+body{ margin:0;}
+img{ display:block;}
+a{ text-decoration:none; cursor:pointer;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0; font-weight:normal;}
+ul{ margin:0; padding:0; list-style:none;}
+.clearfix{ clear:both;}
+
+/*页眉*/
+.top{ width:1000px; margin:0 auto;}
+.logo{ float:left; padding:30px 0;}
+.nav{ float:right; margin-top:65px; margin-right:50px;}
+.nav li{ float:left; padding:0 18px;}
+.nav a{ font-size:14px; color:#4c4c4c;}
+.nav .current{ color:#001eff;}
+
+/*banner*/
+.banner{ width:1200px; margin:0 auto;}
+
+/*内容*/
+.content{ width:1000px; margin:0 auto; margin-top:30px;}
+.content_left{ float:left; width:240px; background-color:#fafafa;}
+.blue_block{ width:240px; height:50px; background-color:#13479d;}
+.blue_block h3{ font-size:16px; color:white; line-height:50px; margin-left:30px;}
+.content_nav a{ font-size:14px; color:#4c4c4c; line-height:60px;}
+.content_nav li{ padding-left:30px;}
+.content_nav .current{ color:#0c00ff;}
+.content_right{ float:right; width:720px; margin-top:15px;}
+.content_right h1{ float:left; font-size:16px; color:#333333; font-weight:bold;}
+.content_right h2{ float:right; font-size:12px; color:#808080;}
+.content_right h4{ float:right; font-size:12px; color:#333333;}
+.news{ padding:25px 0; border-bottom:dotted 1px #666666;}
+.news_img{ float:left;}
+.news p{ width:470px; float:right; font-size:14px; color:#4c4c4c;line-height:24px;}
+
+/*友情链接*/
+.link{ width:1000px; margin:0 auto; margin-top:80px;}
+
+.link_content{ width:1000px; background-color:#f5f5f5; }
+.link_content a{ font-size:16px; color:#13479d; line-height:48px;}
+
+/*页脚*/
+.footer_bg{ background-color:#3b3d42; margin-top:50px;}
+.footer{ width:1000px; margin:0 auto;}
+.footer_content{ padding-top:50px; padding-bottom:60px; float:left;}
+.footer_content img{ margin:0 auto;}
+.footer_content h1{ font-size:14px; color:#cccccc; text-align:center; margin-top:20px; line-height:26px;}
+
+/*地址*/
+.address_bg{ background-color:#2b2d32;}
+.address{ width:1000px; margin:0 auto;}
+.address_bg span{ font-size:14px; color:#cccccc; line-height:50px;}
+</style>
+</head>
+
+<body>
+
+<!--页眉-->
+<div class="top">
+	<a href="../index.html" class="logo" target="_blank"><img src="../img/logo.png"></a>
+    <ul class="nav">
+    	<li><a href="../index.html" target="_blank">首页</a></li>
+        <li><a href="#">走进威克</a></li>
+        <li><a href="#">新闻资讯</a></li>
+        <li><a href="#">企业管理</a></li>
+        <li><a href="#">人才资源</a></li>
+        <li><a href="#">党群工作</a></li>
+        <li><a href="#">合作发展</a></li>
+        <li><a href="#">联系我们</a></li>
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+<script>
+$(".nav li:eq(1) a").addClass(".nav current")
+
+$(".nav li:eq(0) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(0) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(0) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(2) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(2) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(2) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(3) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(3) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(3) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(4) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(4) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(4) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(5) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(5) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(5) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(6) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(6) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(6) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(7) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(7) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(7) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+</script>
+
+<!--banner-->
+<div class="banner">
+	<img src="../img/page2_banner.png">
+</div>
+
+<!--内容-->
+<div class="content">
+	<div class="content_left">
+    	<div class="blue_block"><h3>走进威克</h3></div>
+        <ul class="content_nav">
+        	<li><a href="page1.html" target="_blank">关于我们</a></li>
+            <li><a href="#">威克风采</a></li>
+            <li><a href="#">公司荣誉</a></li>
+            <li><a href="#">绿色矿山宣传片</a></li>
+            <li><a href="#">公司新闻</a></li>
+            <li><a href="#">人力资源</a></li>
+        </ul>
+    </div>
+    <div class="content_right">
+    	<h1>公司新闻</h1>
+        <h4>&nbsp;公司新闻</h4>
+        <h2>当前位置：首页 >走进威克 > </h2>
+        <div class="clearfix"></div>
+        <span style="width:720px; height:1px; background-color:#e5e5e5; margin-top:10px;display:block;"></span>
+        <div class="news">
+        	<img src="../img/page2_img1.png" class="news_img">
+            <p style=" margin-top:30px; ">汛期将至，为确保公司安全度汛。2016年4月26日，市安监局彭孟长处长、县安监局张鹏鹏科长等有关领导到公司对尾矿库、排土场、边坡等重点部位的防汛准备情况进行检查，矿山公司史总、刘建国科长，公司赵总等领导全程陪同检查。</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="news">
+        	<img src="../img/page2_img2.png" class="news_img">
+            <p style=" margin-top:45px; "> 检查组先对公司的日常安全检查，职工教育培训等资料进行查看，进而实地察看尾矿库坝面无渗水、裂缝，排土场安全土挡、排洪设施合格、无滑坡裂缝等隐患，查看采场边坡监测检查处理情况，检查细致入微，具有针对性。</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="news">
+        	<img src="../img/page2_img3.png" class="news_img">
+            <p style=" margin-top:13px; ">威克公司坚持科学发展观，不断推进科技进步，努力建设“生态、环保、节能、绿色、科技矿山”。加大矿山环境治理力度，为实现矿山的无废化生产，研究设计并成功建设原料厂砂石料生产线。目前，该生产线达到年产建筑砂石料550万吨的生产能力和规模，是北京市最大的矿山固废资源综合利用企业，该项目荣获北京市第二十二届“企业管理现代化创新成果一等奖”，成为矿山行业循环经济的典范。</p>
+            <div class="clearfix"></div>
+        </div>
+        <div class="news" style="border:none; padding-bottom:0 ">
+        	<img src="../img/page2_img4.png" class="news_img">
+            <p style=" margin-top:60px; ">我公司为了实现可持续发展，实现再次腾飞，做大做强，加快矿山向非矿产业转型，发展循环经济，积极寻求合作</p>
+            <div class="clearfix"></div>
+        </div>
+     </div>
+    <div class="clearfix"></div>
+</div>
+
+<script>
+$(".content_nav li:eq(4) a").addClass(".content_nav current")
+
+$(".content_nav li:eq(0) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(0) a").addClass(".content_nav current")
+		}
+)
+$(".content_nav li:eq(0) a").mouseleave(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(4) a").addClass(".content_nav current")
+
+		}
+)
+
+
+$(".content_nav li:eq(1) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(1) a").addClass(".content_nav current")
+		}
+)
+$(".content_nav li:eq(1) a").mouseleave(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(4) a").addClass(".content_nav current")
+
+		}
+)
+
+$(".content_nav li:eq(2) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(2) a").addClass(".content_nav current")
+		}
+)
+$(".content_nav li:eq(2) a").mouseleave(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(4) a").addClass(".content_nav current")
+
+		}
+)
+
+$(".content_nav li:eq(3) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(3) a").addClass(".content_nav current")
+		}
+)
+$(".content_nav li:eq(3) a").mouseleave(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(4) a").addClass(".content_nav current")
+
+		}
+)
+
+$(".content_nav li:eq(4) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(4) a").addClass(".content_nav current")
+		}
+)
+
+$(".content_nav li:eq(5) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(5) a").addClass(".content_nav current")
+		}
+)
+$(".content_nav li:eq(5) a").mouseleave(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(4) a").addClass(".content_nav current")
+
+		}
+)
+</script>
+
+<!--友情链接-->
+<div class="link">
+	
+    <div class="link_content">
+    	<a href="#" style="margin-right:170px; margin-left:70px;">北京节能和资源综合利用协会</a>
+        <a href="#" style="margin-right:170px;">中国砂石协会</a>
+        <a href="#" style="margin-right:150px; ">中国联合钢铁网</a>
+        <a href="#" style="margin-left:70px; margin-right:220px">冀东发展有限责任公司</a>
+        <a href="#" style="margin-right:170px;">河北钢铁集团</a>
+        <a href="#">新兴铸管股份有限公司</a>
+    </div>
+</div>
+
+<!--页脚-->
+<div class="footer_bg">
+	<div class="footer">
+    	<div class="footer_content" style="width:98px; margin-left:160px; margin-right:150px;">
+        	<img src="../img/footer_img1.png">
+            <h1>联系电话<br>010-61031879</h1>            
+        </div>
+        <div class="footer_content" style="width:180px; margin-right:120px;">
+        	<img src="../img/footer_img2.png">
+            <h1>营业时间<br>09:00-21:00（周一至周日）</h1>            
+        </div>
+        <div class="footer_content" style="width:140px; margin-right:150px;">
+        	<img src="../img/footer_img3.png">
+            <h1>联系地址<br>北京市密云县巨各庄镇</h1>            
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<!--地址-->
+<div class="address_bg">
+	<div class="address">
+    	<span style="margin-left:140px;">京ICP号：13000574号</span>
+        <span style="margin-left:370px;">京公网安备：11022802151204号</span>
+    </div>
+</div>
+</body>
+</html>

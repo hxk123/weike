@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>走进威克</title>
+<script src="jquery.js"></script>
+<style>
+*{ font-family:"微软雅黑";}
+body{ margin:0;}
+img{ display:block;}
+a{ text-decoration:none; cursor:pointer;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0; font-weight:normal;}
+ul{ margin:0; padding:0; list-style:none;}
+.clearfix{ clear:both;}
+
+/*页眉*/
+.top{ width:1000px; margin:0 auto;}
+.logo{ float:left; padding:30px 0;}
+.nav{ float:right; margin-top:65px; margin-right:50px;}
+.nav li{ float:left; padding:0 18px;}
+.nav a{ font-size:14px; color:#4c4c4c;}
+.nav .current{ color:#001eff;}
+
+/*banner*/
+.banner{ width:1200px; margin:0 auto;}
+
+/*内容*/
+.content{ width:1000px; margin:0 auto; margin-top:30px;}
+.content_left{ float:left; width:240px; background-color:#fafafa;}
+.blue_block{ width:240px; height:50px; background-color:#13479d;}
+.blue_block h3{ font-size:16px; color:white; line-height:50px; margin-left:30px;}
+.content_nav a{ font-size:14px; color:#4c4c4c; line-height:60px;}
+.content_nav li{ padding-left:30px;}
+.content_nav .current{ color:#0c00ff;}
+.content_right{ float:right; width:720px; margin-top:15px;}
+.content_right h1{ float:left; font-size:16px; color:#333333; font-weight:bold;}
+.content_right h2{ float:right; font-size:12px; color:#808080;}
+.content_right h4{ float:right; font-size:12px; color:#333333;}
+.content_right p{ font-size:14px; color:#4c4c4c; line-height:24px; text-indent:28px; margin-bottom:15px;}
+
+/*友情链接*/
+.link{ width:1000px; margin:0 auto; margin-top:80px;}
+
+.link_content{ width:1000px; background-color:#f5f5f5; }
+.link_content a{ font-size:16px; color:#13479d; line-height:48px;}
+
+/*页脚*/
+.footer_bg{ background-color:#3b3d42; margin-top:50px;}
+.footer{ width:1000px; margin:0 auto;}
+.footer_content{ padding-top:50px; padding-bottom:60px; float:left;}
+.footer_content img{ margin:0 auto;}
+.footer_content h1{ font-size:14px; color:#cccccc; text-align:center; margin-top:20px; line-height:26px;}
+
+/*地址*/
+.address_bg{ background-color:#2b2d32;}
+.address{ width:1000px; margin:0 auto;}
+.address_bg span{ font-size:14px; color:#cccccc; line-height:50px;}
+</style>
+</head>
+
+<body>
+
+<!--页眉-->
+<div class="top">
+	<a href="../index.html" class="logo" target="_blank"><img src="../img/logo.png"></a>
+    <ul class="nav">
+    	<li><a href="../index.html" target="_blank">首页</a></li>
+        <li><a href="#">走进威克</a></li>
+        <li><a href="#">新闻资讯</a></li>
+        <li><a href="#">企业管理</a></li>
+        <li><a href="#">人才资源</a></li>
+        <li><a href="#">党群工作</a></li>
+        <li><a href="#">合作发展</a></li>
+        <li><a href="#">联系我们</a></li>
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+<script>
+$(".nav li:eq(1) a").addClass(".nav current")
+
+$(".nav li:eq(0) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(0) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(0) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(2) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(2) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(2) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(3) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(3) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(3) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(4) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(4) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(4) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(5) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(5) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(5) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(6) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(6) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(6) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+
+$(".nav li:eq(7) a").mouseenter(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(7) a").addClass(".nav current")
+		}
+)
+$(".nav li:eq(7) a").mouseleave(
+	function(){
+		$(".nav li a").removeClass()
+		$(".nav li:eq(1) a").addClass(".nav current")
+		}
+)
+</script>
+
+<!--banner-->
+<div class="banner">
+	<img src="../img/page1_banner.png">
+</div>
+
+<!--内容-->
+<div class="content">
+	<div class="content_left">
+    	<div class="blue_block"><h3>走进威克</h3></div>
+        <ul class="content_nav">
+        	<li><a href="#">关于我们</a></li>
+            <li><a href="#">威克风采</a></li>
+            <li><a href="#">公司荣誉</a></li>
+            <li><a href="#">绿色矿山宣传片</a></li>
+            <li><a href="../page2.html" target="_blank">公司新闻</a></li>
+            <li><a href="#">人力资源</a></li>
+        </ul>
+    </div>
+    <div class="content_right">
+    	<h1>关于我们</h1>
+        <h4>&nbsp;关于我们</h4>
+        <h2>当前位置：首页 >走进威克 > </h2>
+        <div class="clearfix"></div>
+        <span style="width:720px; height:1px; background-color:#e5e5e5; margin-top:10px; margin-bottom:10px; display:block;"></span>
+        <p>北京威克冶金有限责任公司，位于北京市密云县巨各庄镇境内，距密云县城11.5公里，交通运输畅通便捷。威克公司原为国有矿山，是密云冶金矿山公司所属的二级企业，2003年，企业重组改制为国有股份占主体的有限责任公司，现有职工1372人，各类专业工程技术人员91人（其中中高级工程技术人员15人）。公司设有四个分厂和三个车间，是一个以采矿、选矿和砂石料加工为主的冶金矿山企业。主导产品有：铁精粉、砂石料。目前，威克公司已形成年采剥总量600万吨、选矿厂年处理矿石能力160万吨、年产铁精粉近50万吨、年产建筑砂石料总量550万吨的生产能力及规模。2010年，威克公司生产铁精粉37.2万吨、生产建筑砂石料533万吨，工业总产值5.29亿元，利润1.66亿元，上缴税金1.14亿元。企业纳税位列密云县第五名，全年实现安全生产无事故。</p>
+        <p> 威克公司坚持科学发展观，不断推进科技进步，努力建设“生态、环保、节能、绿色、科技矿山”。加大矿山环境治理力度，为实现矿山的无废化生产，研究设计并成功建设原料厂砂石料生产线。目前，该生产线达到年产建筑砂石料550万吨的生产能力和规模，是北京市最大的矿山固废资源综合利用企业，该项目荣获北京市第二十二届“企业管理现代化创新成果一等奖”，成为矿山行业循环经济的典范。2012年4月，威克公司又落成尾矿全处理车间，实现了尾矿 砂的全部利用，并实现了矿山的无废化生产和固体废弃物的全部综合利用。</p>
+        <p>威克公司在加快发展的同时，积极承担社会责任，为密云的经济发展贡献力量。公司先后获得“全国安康杯竞赛优胜企业”、“首批全国绿色矿山”试点单位、“首都绿化美化花园式单位”、“北京市工商行政管理守信企业”、“北京市厂务公开民主管理先进单位”、连续八年位列北京市“纳税信用A级企业”，连续三年荣获“北京市地税系统千强企业”、“中国企业数据库-中国优秀企业”、“北京市和谐劳动关系先进单位”、“缴纳残疾人就业保障金先进单位”、“先进基层党组织”等多 项荣誉称号。 </p>
+        <p style="margin:0">抢抓机遇谋发展，志存高远创大业。威克公司将紧密围绕县委县政府“三个走在前列”和打造绿色国际休闲之都的目标，按照矿山公司“两加快、两加强、两确保”的总体生产经营目标，以“求实、创新、发展”的工作理念，走“生态开发、循环经济、科学利用”之路，将威克公司建设成为一座技术先进、管理一流、环境优美的生态矿山企业</p>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<script>
+$(".content_nav li:eq(0) a").addClass(".content_nav current")
+
+$(".content_nav li:eq(0) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(0) a").addClass(".content_nav current")
+		}
+)
+
+$(".content_nav li:eq(1) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(1) a").addClass(".content_nav current")
+		}
+)
+$(".content_nav li:eq(1) a").mouseleave(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(0) a").addClass(".content_nav current")
+
+		}
+)
+
+$(".content_nav li:eq(2) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(2) a").addClass(".content_nav current")
+		}
+)
+$(".content_nav li:eq(2) a").mouseleave(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(0) a").addClass(".content_nav current")
+
+		}
+)
+
+$(".content_nav li:eq(3) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(3) a").addClass(".content_nav current")
+		}
+)
+$(".content_nav li:eq(3) a").mouseleave(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(0) a").addClass(".content_nav current")
+
+		}
+)
+
+$(".content_nav li:eq(4) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(4) a").addClass(".content_nav current")
+		}
+)
+$(".content_nav li:eq(4) a").mouseleave(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(0) a").addClass(".content_nav current")
+
+		}
+)
+
+$(".content_nav li:eq(5) a").mouseenter(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(5) a").addClass(".content_nav current")
+		}
+)
+$(".content_nav li:eq(5) a").mouseleave(
+	function(){
+		$(".content_nav li a").removeClass()
+		$(".content_nav li:eq(0) a").addClass(".content_nav current")
+
+		}
+)
+</script>
+
+
+<!--友情链接-->
+<div class="link">
+	
+    <div class="link_content">
+    	<a href="#" style="margin-right:170px; margin-left:70px;">北京节能和资源综合利用协会</a>
+        <a href="#" style="margin-right:170px;">中国砂石协会</a>
+        <a href="#" style="margin-right:150px; ">中国联合钢铁网</a>
+        <a href="#" style="margin-left:70px; margin-right:220px">冀东发展有限责任公司</a>
+        <a href="#" style="margin-right:170px;">河北钢铁集团</a>
+        <a href="#">新兴铸管股份有限公司</a>
+    </div>
+</div>
+
+<!--页脚-->
+<div class="footer_bg">
+	<div class="footer">
+    	<div class="footer_content" style="width:98px; margin-left:160px; margin-right:150px;">
+        	<img src="../img/footer_img1.png">
+            <h1>联系电话<br>010-61031879</h1>            
+        </div>
+        <div class="footer_content" style="width:180px; margin-right:120px;">
+        	<img src="../img/footer_img2.png">
+            <h1>营业时间<br>09:00-21:00（周一至周日）</h1>            
+        </div>
+        <div class="footer_content" style="width:140px; margin-right:150px;">
+        	<img src="../img/footer_img3.png">
+            <h1>联系地址<br>北京市密云县巨各庄镇</h1>            
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<!--地址-->
+<div class="address_bg">
+	<div class="address">
+    	<span style="margin-left:140px;">京ICP号：13000574号</span>
+        <span style="margin-left:370px;">京公网安备：11022802151204号</span>
+    </div>
+</div>
+</body>
+</html>
